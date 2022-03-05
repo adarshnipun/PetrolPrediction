@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="static/test.css">
+        <title>
+            Petrol Consumption
+        </title>
+    </head>
+    <body>
+        <p>
+            Predict petrol Consumption<br>
+            
+            <form action="/hello" method="post" enctype = "multipart/form-data" >
+                	<h1>			
+				Tell your Income : <input type="text"  name="income"   />
+                </h1>
+                <center><input type="submit" name= "form" value="Submit" /></center>
+          </form>
+                     
+           <br>
+		   <br>
+			<label><center><h2><b>Your Predicted Petrol Consumption : </b></label></h2></center><br>
+			
+
+			<div><center><h1><u>{{ output }}</u></h1></center><br>
+			
+			<div><center><a href='/'> Go Back to Predict again</center><br>
+    
+	  
+	  
+	  
+	  <div>
+        </p>
+    </body>
+</html>

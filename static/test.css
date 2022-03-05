@@ -1,0 +1,26 @@
+body {
+  background-color: black;
+  background-repeat: no-repeat;
+
+background-position: bottom;
+
+}
+
+h1 {
+  color: red;
+  text-align: center;
+
+}
+
+p {
+color: white;
+  text-align: center;
+  font-family: verdana;
+  font-size: 20px;
+}
+
+label{
+
+color: white;
+  text-align: center;
+}
