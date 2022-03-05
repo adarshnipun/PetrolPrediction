@@ -15,7 +15,7 @@ def predOut(AvgInc):
     
     
 
-    model = load(r'C:\Users\19xtz51b\filename.joblib') 
+    model = load(r'filename.joblib') 
     
     prediction = model.predict(AvgInc)
    
@@ -26,7 +26,6 @@ def predOut(AvgInc):
 	
 from flask import Flask, render_template,request
 app = Flask(__name__)
-#app.config['UPLOAD_FOLDER']=r"C:\Users\19xtz51b\Desktop\CollinsMLBatch20September\Day4\MLMatCNN\static"
 
 
 @app.route('/')
